@@ -46,13 +46,13 @@
                 $uploadOk = 0;
             }
 
-            //فحص حجم الملف
+            // check the file size
             if ($_FILES["image"]["size"] > 500000) {
                 $message = "يرجى منك رفع ملف بحجم اقل من 500 كيلوبايت";
                 $uploadOk = 0;
             }
 
-            //فحص صيغه الملف
+            // check the file format
             if ($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg" && $imageFileType != "gif") {
                 $message = "نأسف صيغه الملف المرفوع غير مدعومة";
                 $uploadOk = 0;
