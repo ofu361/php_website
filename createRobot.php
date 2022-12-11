@@ -40,7 +40,7 @@
 
         if ($check !== false) {
 
-            //التاكد من وجود الملف مسبقا
+            // ensure that the file is already
             if (file_exists('assets/images/' . $_FILES["image"]["name"])) {
                 $message = "نأسف الملف موجود مسبقا";
                 $uploadOk = 0;

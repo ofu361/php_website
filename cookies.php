@@ -1,6 +1,6 @@
 <?php
 
-setcookie("روبوت","فهيم",time() + (86400 * 30), "/");
+setcookie("Robot","faheem",time() + (86400 * 30), "/");
 header("Location:index.php");
 
 ?>
